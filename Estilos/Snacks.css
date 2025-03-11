@@ -4,24 +4,47 @@ body {
     margin: 0px;
     padding: 0px;
     text-align: center;
-    background: white;
+    background: url('../Imagenes/Log_dul.png') no-repeat center center fixed;
+    background-size: cover;
     overflow-x: hidden;
 }
 
 header {
-    background: linear-gradient(135deg, #ff758c, gold, #ff758c);
-    padding: 20px;
-    color: black;
+    position: relative;
+    display: flex; /* Alinea los elementos en fila */
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Alinea todo a la izquierda */
+    background: rgb(0, 0, 0, 0.1);
+    padding: 50px;
+    color: goldenrod;
     font-size: 28px;
     font-weight: bold;
     text-transform: uppercase;
 }
 
-h2 {
-    color: #ff758c;
-    text-align: center;
+.logo {
+    width: 130px; /* Tamaño del logo */
+    height: auto;
+    position: absolute;
+    left: 100px; /* Lo pega a la izquierda */
+    top: 50%;
+    transform: translateY(-50%); /* Lo centra verticalmente */
 }
 
+.title {
+    flex: 1; /* Ocupa el espacio disponible */
+    text-align: center; /* Centra el texto */
+    margin: 0; /* Evita márgenes extra */
+}
+
+h2 {
+    color: goldenrod;
+    text-align: center;
+}
+.h2_2{
+    color: black;
+    text-align: center;
+}
 .gallery {
     display: flex;
     justify-content: center;
@@ -35,7 +58,7 @@ h2 {
     overflow: auto;
     border-radius: 15px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-    background: #ddd;
+    background: rgba(221, 221, 221, 0.7);
     text-align: center;
 }
 
@@ -106,8 +129,8 @@ h2 {
 
 /* Estilos del botón de contacto */
 .button {
-    background: #e94e77;
-    color: white;
+    background: goldenrod;
+    color: black;
     border: none;
     padding: 12px 20px;
     font-size: 18px;
@@ -120,8 +143,9 @@ h2 {
 }
 
 .button:hover {
-    background: #ff758c;
+    background: black;
     transform: scale(1.05);
+    color: goldenrod;
 }
 
 /* Contenedor de redes sociales en línea */
@@ -238,3 +262,4 @@ h2 {
         padding: 12px 20px;
     }
 }
+
