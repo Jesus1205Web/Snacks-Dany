@@ -184,6 +184,15 @@ h2 {
     header {
         font-size: 20px;
     }
+
+    .logo {
+        width: 40px; /* Reduce el tamaño del logo */
+        left: 10px; /* Menos espacio a la izquierda */
+    }
+    .title {
+        font-size: 18px; /* Reduce el tamaño del título */
+    }
+
     .gallery {
         width: 90%;
         padding: 20px;
@@ -207,6 +216,15 @@ h2 {
     header {
         font-size: 24px;
     }
+
+    .logo {
+        width: 50px;
+        left: 15px;
+    }
+    .title {
+        font-size: 22px;
+    }
+
     .gallery {
         width: 80%;
         padding: 30px;
@@ -230,6 +248,15 @@ h2 {
     header {
         font-size: 26px;
     }
+
+    .logo {
+        width: 55px;
+        left: 18px;
+    }
+    .title {
+        font-size: 26px;
+    }
+
     .gallery {
         width: 75%;
         padding: 40px;
@@ -237,25 +264,6 @@ h2 {
     .item {
         width: 230px;
         height: 230px;
-    }
-    .button {
-        font-size: 18px;
-        padding: 12px 20px;
-    }
-}
-
-/* Para pantallas grandes (computadoras de escritorio grandes) */
-@media screen and (min-width: 1025px) {
-    header {
-        font-size: 28px;
-    }
-    .gallery {
-        width: 65%;
-        padding: 50px;
-    }
-    .item {
-        width: 250px;
-        height: 250px;
     }
     .button {
         font-size: 18px;
